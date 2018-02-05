@@ -1,0 +1,23 @@
+# IDE/editors
+.vscode
+.idea
+
+# virtual environments
+venv
+env
+
+# Python
+*.pyc
+
+# secrets
+.env
+
+
+# data files
+data/*
+
+#data files we ant to keep
+!data/temps.csv
+
+# notebook files
+notebooks/.ipynb_checkpoints
