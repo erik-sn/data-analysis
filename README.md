@@ -6,11 +6,12 @@
 2. Install Python3
 3. Install virtualenv: `pip3 install virtualenv`
 4. Clone this project: `git clone https://github.com/erik-sn/data-analysis`
-5. Create a virtual environment: `virtualenv venv --python=python3`
-6. Activate virtualenv:
+5. run `cd data-analysis`
+6. Create a virtual environment: `virtualenv venv --python=python3`
+7. Activate virtualenv:
   - Windows: `venv\Scripts\activate.bat`
   - Mac/Linux: `source venv/bin/activate`
-7. Install project dependencies: `pip install -r requirements.txt`
+8. Install project dependencies: `pip install -r requirements.txt`
 
 ## Description
 
