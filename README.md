@@ -24,3 +24,5 @@ to use a native Python distribution to execute it as well. There are three optio
 - `source venv/bin/activate`
 - `pip install -r requirements.txt`
 - `python workspace/introduction.py # or whichever file you are working in`
+
+# Test
