@@ -1,5 +1,16 @@
 # Data Analysis Project
 
+## Installing Everything
+
+1. Install git
+2. Install Python3
+3. Install virtualenv: `pip3 install virtualenv`
+4. Create a virtual environment: `virtualenv venv --python=python3`
+5. Activate virtualenv:
+  - Windows: `venv\Scripts\activate.bat`
+  - Mac/Linux: `source venv/bin/activate`
+6. Install project dependencies: `pip install -r requirements.txt`
+
 ## Description
 
 This project is a template to perform analysis, generate plots, and manipulate data
@@ -14,15 +25,13 @@ to use a native Python distribution to execute it as well. There are three optio
   - `docker-compose up`
     - browse to `http://localhost:8888` in your browser and enter the password
 2. Working locally with Jupyter notebooks:
-- `virtualenv venv`
+- `virtualenv venv --python=python3`
 - `source venv/bin/activate`
 - `pip install -r requirements.txt`
 - `jupyter notebook`
   - browse to `http://localhost:8888` in your browser and enter the password
 3. Working locally with Python files:
-- `virtualenv venv`
+- `virtualenv venv --python=python3`
 - `source venv/bin/activate`
 - `pip install -r requirements.txt`
 - `python workspace/introduction.py # or whichever file you are working in`
-
-# Test
