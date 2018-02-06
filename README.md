@@ -4,7 +4,7 @@
 
 1. Install git
 2. Install Python3
-3. Install virtualenv: `pip3 install virtualenv`
+3. Install virtualenv: `pip install virtualenv`
 4. Clone this project: `git clone https://github.com/erik-sn/data-analysis`
 5. run `cd data-analysis`
 6. Create a virtual environment: `virtualenv venv --python=python3`
